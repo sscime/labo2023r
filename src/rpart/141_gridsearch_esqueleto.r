@@ -115,7 +115,7 @@ cat(
 
 for (vmax_depth in c(4, 6, 8, 10, 12, 14)){
   for (vmin_split in c(1000, 800, 600, 400, 200, 100, 50, 20, 10))  {
-    for(vmin_bucket in c(500, 400, 300, 200, 100, 50, 20, 10, 5 1)){
+    for(vmin_bucket in c(500, 400, 300, 200, 100, 50, 20, 10, 5, 1)){
       for(vmin_cp in c(0,0,01, 0,05)){
         # notar como se agrega
         param_basicos <- list(
