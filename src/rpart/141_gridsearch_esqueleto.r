@@ -119,7 +119,7 @@ for (vmax_depth in c(4, 6, 8, 10, 12, 14)){
       for(vmin_cp in c(0,0,01, 0,05)){
         # notar como se agrega
         param_basicos <- list(
-        "cp" = -0.001, # complejidad minima
+        "cp" = -vmin_cp, # complejidad minima
         "minsplit" = vmin_split, # minima cantidad de registros en un nodo para hacer el split # nolint
         "minbucket" = 5, # minima cantidad de registros en una hoja
         "maxdepth" = vmax_depth
@@ -136,7 +136,8 @@ for (vmax_depth in c(4, 6, 8, 10, 12, 14)){
          vmax_depth, "\t",
          vmin_split, "\t",
          vmin_bucket, "\t",
-          ganancia_promedio, "\n"
+         vmin_cp, "\t",
+         ganancia_promedio, "\n"
         }
       )
     }
