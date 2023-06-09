@@ -134,7 +134,7 @@ for (vmax_depth in c(4, 6, 8, 10, 12, 14)){
          append = TRUE,
          sep = "",
          vmax_depth, "\t",
-        vmin_split, "\t",
+         vmin_split, "\t",
          vmin_bucket, "\t",
           ganancia_promedio, "\n"
         }
