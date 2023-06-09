@@ -33,7 +33,7 @@ dataset <- dataset[clase_ternaria != ""]
 
 # particiono estratificadamente el dataset
 # Cambiar por la primer semilla de cada uno !
-particionar(dataset, division = c(7, 3), agrupa = "clase_ternaria", seed = 102191) # Cambiar por la primer semilla de cada uno !
+particionar(dataset, division = c(7, 3), agrupa = "clase_ternaria", seed = 555593) # Cambiar por la primer semilla de cada uno !
 
 
 param_basicos <- list(
