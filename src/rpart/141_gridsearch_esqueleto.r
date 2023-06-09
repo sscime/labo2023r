@@ -130,7 +130,7 @@ for (vmax_depth in c(4, 6, 8, 10, 12, 14)){
 
         # escribo los resultados al archivo de salida
         cat(
-         file = archivo_salida,
+         file = "~/salida.txt",
          append = TRUE,
          sep = "",
          vmax_depth, "\t",
