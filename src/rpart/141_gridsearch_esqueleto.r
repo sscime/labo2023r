@@ -138,7 +138,7 @@ for (vmax_depth in c(4, 6, 8, 10, 12, 14)){
          vmin_bucket, "\t",
          vmin_cp, "\t",
          ganancia_promedio, "\n"
-        }
+        )
       )
     }
   }
