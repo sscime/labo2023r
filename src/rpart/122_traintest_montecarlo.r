@@ -5,7 +5,7 @@ require("data.table")
 require("rpart")
 require("parallel")
 
-ksemillas <- c(102191, 200177, 410551, 552581, 892237) # reemplazar por las propias semillas
+ksemillas <- c(555593, 555671, 555761, 556103, 556687) # reemplazar por las propias semillas
 
 #------------------------------------------------------------------------------
 # particionar agrega una columna llamada fold a un dataset que consiste en una particion estratificada segun agrupa
