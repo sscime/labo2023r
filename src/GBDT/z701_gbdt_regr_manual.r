@@ -74,7 +74,7 @@ for (iteracion in 1:PARAM$num_iterations) {
     dcolumna[, corte := frollmean(valor, 2, align = "left")]
 
     # calculo el gain
-    dcolumna[, gain := 2 * cumsum(error)]
+    dcolumna[, gain := cumsum(error)^2]
     pos <- dcolumna[, which.max(abs(gain))]
     reg <- dcolumna[pos]
 
