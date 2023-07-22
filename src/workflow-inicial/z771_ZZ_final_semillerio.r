@@ -30,10 +30,10 @@ PARAM$modelos_rank <- c(1)
 # cantidad de semillas a utilizar en el semillerio,
 #  podrian ser 50 o 100 para mayor estabilidad
 #  semillerio <- 1  es el ZZ_final  tradicional
-PARAM$semillerio <- 20
+PARAM$semillerio <- 40
 
 # se utiliza para generar el vector de  PARAM$semillerio  semillas
-PARAM$semilla_primos <- 102191
+PARAM$semilla_primos <- 556687
 
 PARAM$kaggle$envios_desde <- 9500L
 PARAM$kaggle$envios_hasta <- 11500L
