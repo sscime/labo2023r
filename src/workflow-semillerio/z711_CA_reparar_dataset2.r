@@ -1,6 +1,6 @@
 # Experimentos Colaborativos Default
 # Workflow  Catastrophe Analysis
-
+#Todos terminan en 2
 # limpio la memoria
 rm(list = ls(all.names = TRUE)) # remove all objects
 gc(full = TRUE) # garbage collection

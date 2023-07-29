@@ -1,5 +1,5 @@
 # Corrida general del workflow Semillerio
-
+#Todos terminan en 2
 options(error = function() {
   traceback(20)
   options(error = NULL)

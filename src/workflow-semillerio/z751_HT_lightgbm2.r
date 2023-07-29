@@ -1,6 +1,6 @@
 # Experimentos Colaborativos Default
 # Hyperparameter Tuning  lightgbm
-
+#Todos terminan en 2
 # pensado para datasets con UNDERSAPLING de la clase mayoritaria
 
 # limpio la memoria
