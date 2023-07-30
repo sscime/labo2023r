@@ -37,6 +37,7 @@ PARAM$graficar$envios_hasta <- 20000L # para el caso que deba graficar
 PARAM$graficar$ventana_suavizado <- 2001L
 
 PARAM$home <- "~/buckets/b1/"
+
 # FIN Parametros del script
 
 OUTPUT <- list()
